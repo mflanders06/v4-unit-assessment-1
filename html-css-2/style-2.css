@@ -112,13 +112,14 @@ section{
     height: 70%;
     
     background-color: rgb(150, 56, 51);
-    margin-top: 25px;
+    margin-top: 23px;
     margin-left: 25x;
     align-self: center;
     align-items: center;
     color: white;
     font-size: smaller;
     text-align: center ;
+    margin-left: 19px;
 }
 
 #blueCircle{
