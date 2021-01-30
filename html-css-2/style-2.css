@@ -25,7 +25,7 @@ section{
 #rectangleSection{
     display:flex;
     flex-direction: row;
-    justify-content: baseline;
+
 }
 
 #purpleBox{
@@ -34,6 +34,7 @@ section{
     background-color: rgb(66, 31, 122);
     border: 2px solid rgb(228, 61, 48);
     margin-right: 17px;
+    margin-top:50px;
 }
 
 #blueBox{
@@ -42,6 +43,7 @@ section{
     background-color: rgb(2, 62, 238);
     box-shadow: 4px 4px 3px black;
     margin-right: 17px;
+    margin-top: 50px;
 }
 
 #pinkBox{
@@ -49,6 +51,7 @@ section{
     width: 100px;
     background-color: rgb(202, 121, 147);
     border: 1px solid black;
+    
 }
 
 #snowmanContainer{
@@ -127,4 +130,9 @@ section{
     width: 80%;
     background-color: rgb(2, 62, 238);
     border-radius: 100%;
+}
+
+#goldfish{
+    margin-top: 10px;
+    width: 40px;
 }
