@@ -1,0 +1,66 @@
+body{
+    box-sizing: content-box;
+    background-color: (150, 149, 149);
+}
+
+nav{
+    background-color: rgb(232, 120, 120);
+    
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+
+}
+
+h2{
+    font-size:25px;
+    font-weight: 600;
+    margin-top:30px;
+    margin-bottom:25px;
+}
+
+#navWelcome{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navTag{
+    font-size: 25px;
+    padding: 30px;
+}
+
+main{
+    height: 80vh;
+    width: 100vw;
+}
+
+section{
+    padding: 20px;
+    margin: 10px;
+    border: 5px dotted black;
+    border-style: dotted;
+    font-size:18px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+img{
+    width: 150px;
+}
+
+#html5Logo{
+    float: left;
+}
+
+#css3Logo{
+    float: right;
+}
