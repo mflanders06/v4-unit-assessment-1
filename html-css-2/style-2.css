@@ -59,6 +59,7 @@ section{
     justify-content: center;
     align-content: center;
     align-items:center;
+    clear: inherit;
 }
 
 .snowBall{
