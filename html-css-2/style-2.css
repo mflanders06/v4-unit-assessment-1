@@ -25,7 +25,7 @@ section{
 #rectangleSection{
     display:flex;
     flex-direction: row;
-    justify-content:last baseline;
+    justify-content: baseline;
 }
 
 #purpleBox{
@@ -40,7 +40,7 @@ section{
     height:50px;
     width:50px;
     background-color: rgb(2, 62, 238);
-    box-shadow: black;
+    box-shadow: 4px 4px 3px black;
     margin-right: 17px;
 }
 
@@ -49,4 +49,80 @@ section{
     width: 100px;
     background-color: rgb(202, 121, 147);
     border: 1px solid black;
+}
+
+#snowmanContainer{
+    width: 130px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+}
+
+.snowBall{
+    border: 1px solid black;
+    border-radius: 100%;
+    
+}
+
+#snowTop{
+    width:40px;
+    padding: 10px
+}
+
+#snowMiddle{
+    width:27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#snowBottom{
+    width: 50px;
+    padding-top:22px;
+    padding-bottom:22px;
+    padding-left:40px;
+    padding-right:40px;
+
+}
+
+#beigeBox{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(245, 244, 224);
+    border: 1px solid black;
+}
+
+#greenCircle{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(61, 122, 43);
+    border: 1px solid black;
+    border-radius: 100%;
+
+}
+
+#fishTank{
+
+    width: 70%;
+    height: 70%;
+    
+    background-color: rgb(150, 56, 51);
+    margin-top: 25px;
+    margin-left: 25x;
+    align-self: center;
+    align-items: center;
+    color: white;
+    font-size: smaller;
+    text-align: center ;
+}
+
+#blueCircle{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(2, 62, 238);
+    border-radius: 100%;
 }
