@@ -1,0 +1,52 @@
+
+
+header{
+    background-color: rgb(165, 249, 216);
+    padding: 20px;
+}
+h1{
+    font-size: 24px;
+    font-weight:500;
+}
+
+main{
+    margin-left:15px;
+}
+
+h2{
+font-size:17px;
+}
+
+section{
+    border: 1px dotted black;
+    padding:17px;
+}
+
+#rectangleSection{
+    display:flex;
+    flex-direction: row;
+    justify-content:last baseline;
+}
+
+#purpleBox{
+    height:50px;
+    width:100px;
+    background-color: rgb(66, 31, 122);
+    border: 2px solid rgb(228, 61, 48);
+    margin-right: 17px;
+}
+
+#blueBox{
+    height:50px;
+    width:50px;
+    background-color: rgb(2, 62, 238);
+    box-shadow: black;
+    margin-right: 17px;
+}
+
+#pinkBox{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 121, 147);
+    border: 1px solid black;
+}
